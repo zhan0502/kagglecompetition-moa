@@ -1,1 +1,3 @@
-# kagglecompetition-moa
+# Kaggle Competition for Mechanisms of Action (MoA) Prediction
+
+The task for this Kaggle Competition is to use the training dataset to develop an algorithm to make predictions on test dataset for the given 206 MoA targets.  In training dataset, there are in total 23, 814 samples which consist various inputs of gene expression and cell viability data. The training target data consists the response label of each MoA targets with the value of 0 or 1. In this report, we refer to the label value 1 as positive, label value 0 as negative. And the required output for test data is the probability of MoA target is positive. Formally, we take this as a multilabel binary classification supervised learning task.   
